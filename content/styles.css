@@ -51,7 +51,7 @@ body {
   margin-top: 5vh;
   color: white;
   font-weight: 400;
-  font-size: 80px;
+  font-size: 5rem; /* Zmiana z 80px na 5rem */
   font-style: normal;
 
   font-family: "Playwrite US Trad", cursive;
@@ -83,8 +83,8 @@ p {
 }
 
 #impreza {
-  margin-top: 40px;
-  font-size: 20px;
+  margin-top: 2.5rem; /* Zmiana z 40px na 2.5rem */
+  font-size: 1.25rem; /* Zmiana z 20px na 1.25rem */
   font-weight: 700;
   color: white;
   user-select: none;
@@ -118,8 +118,8 @@ p {
 }
 
 #initial-image {
-  width: 100px;
-  height: 100px;
+  width: 6.25rem; /* Zmiana z 100px na 6.25rem */
+  height: 6.25rem; /* Zmiana z 100px na 6.25rem */
   cursor: pointer;
   transition: transform 0.5s ease-in-out;
 
@@ -155,16 +155,16 @@ p {
 
 #content {
   background-color: white;
-  padding: 20px 40px;
-  padding-bottom: 10px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 1.25rem 2.5rem; /* Zmiana z 20px 40px na 1.25rem 2.5rem */
+  padding-bottom: 0.625rem; /* Zmiana z 10px na 0.625rem */
+  border-radius: 0.625rem; /* Zmiana z 10px na 0.625rem */
+  box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1); /* Zmiana z 0 0 10px na 0 0 0.625rem */
 }
 
 #countdown {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 1.25rem; /* Zmiana z 20px na 1.25rem */
   user-select: none;
   -moz-user-select: none;
   -webkit-user-drag: none;
@@ -174,14 +174,14 @@ p {
 
 .tile {
   background-color: #ffc4d3;
-  font-size: 20px;
-  margin: 0 10px;
-  padding: 10px 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  font-size: 1.25rem; /* Zmiana z 20px na 1.25rem */
+  margin: 0 0.625rem; /* Zmiana z 0 10px na 0 0.625rem */
+  padding: 0.625rem 1.25rem; /* Zmiana z 10px 20px na 0.625rem 1.25rem */
+  border-radius: 0.625rem; /* Zmiana z 10px na 0.625rem */
+  box-shadow: 0 0 0.3125rem rgba(0, 0, 0, 0.1); /* Zmiana z 0 0 5px na 0 0 0.3125rem */
   transition: transform 0.3s ease-in-out;
   color: white;
-  width: 50px;
+  width: 3.125rem; /* Zmiana z 50px na 3.125rem */
 }
 
 .tile:hover {
@@ -193,7 +193,7 @@ p {
 }
 
 .label {
-  font-size: 12px;
+  font-size: 0.75rem; /* Zmiana z 12px na 0.75rem */
   font-weight: 500;
 }
 
