@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pl">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Zaproszenie</title>
+      <link rel="icon" href="content/images/icon.ico" type="image/x-icon">
+      <link rel="stylesheet" href="content/styles.css" />
+      <!-- Comfortaa -->
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+         rel="stylesheet"
+         />
+
+      <!-- Handwriting -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Playwrite+US+Trad:wght@100..400&display=swap" rel="stylesheet">
+
+   <body>
+      <div id="image-container">
+         <img src="content/images/image.png" id="initial-image" alt="Initial Image" />
+      </div>
+
+      <div id="main-content" class="hidden fade-in">
+
+         <img src="content/images/decor.png" alt="Corner Image" class="corner-image">
+         <img src="content/images/decor2.png" alt="Corner Image" class="corner-image2">
+
+         <h1 id="header">Zaproszenie</h1>
+
+         <div id="content">
+
+            <p>Serdecznie zapraszam Cię <br/> na przyjęcie z okazji moich 18 urodzin, <br/> które odbędzie się</p>
+            <p class="bold">
+               30 sierpnia o godz. 20.00<br/>
+               w Polskiej Toskanii w Bożewie na ul. Płockiej 49
+            </p>
+            <p>Proszę o potwierdzenie przybycia do 20 sierpnia.</p>
+            
+            <video height="200" autoplay muted>
+               <source src="content/images/birthmovie.mp4" type="video/mp4">
+               Twoja przeglądarka nie obsługuje odtwarzania wideo.
+            </video>
+         </div>
+
+         <p id="impreza">Impreza rozpocznie się za:</p>
+
+         <div id="countdown">
+            <div class="tile">
+               <span id="days" class="number">0</span>
+               <span id="days-label" class="label">dni</span>
+            </div>
+            <div class="tile">
+               <span id="hours" class="number">0</span>
+               <span id="hours-label" class="label">godzin</span>
+            </div>
+            <div class="tile">
+               <span id="minutes"class="number">0</span>
+               <span id="minutes-label" class="label">minut</span>
+            </div>
+            <div class="tile">
+               <span id="seconds" class="number">0</span>
+               <span id="seconds-label" class="label">sekund</span>
+            </div>
+         </div>
+
+      </div>
+
+      <!-- hej, i jak podoba ci się kod? -->
+       
+      <script src="content/script.js"></script>
+   </body>
+</html>
