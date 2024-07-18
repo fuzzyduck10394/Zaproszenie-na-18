@@ -24,7 +24,7 @@ body {
   top: 0;
   left: 0;
 
-  height: 70vh;
+  height: 56vh; /* 70vh * 0.8 */
   opacity: 0.7;
   user-select: none;
   -moz-user-select: none;
@@ -38,7 +38,7 @@ body {
   bottom: 0;
   right: 0;
 
-  height: 70vh;
+  height: 56vh; /* 70vh * 0.8 */
   opacity: 0.7;
   user-select: none;
   -moz-user-select: none;
@@ -48,10 +48,10 @@ body {
 }
 
 #header {
-  margin-top: 5vh;
+  margin-top: 4vh; /* 5vh * 0.8 */
   color: white;
   font-weight: 400;
-  font-size: 5rem; /* Zmiana z 80px na 5rem */
+  font-size: 4rem; /* 5rem * 0.8 */
   font-style: normal;
 
   font-family: "Playwrite US Trad", cursive;
@@ -83,8 +83,8 @@ p {
 }
 
 #impreza {
-  margin-top: 2.5rem; /* Zmiana z 40px na 2.5rem */
-  font-size: 1.25rem; /* Zmiana z 20px na 1.25rem */
+  margin-top: 2rem; /* 2.5rem * 0.8 */
+  font-size: 1rem; /* 1.25rem * 0.8 */
   font-weight: 700;
   color: white;
   user-select: none;
@@ -118,8 +118,8 @@ p {
 }
 
 #initial-image {
-  width: 6.25rem; /* Zmiana z 100px na 6.25rem */
-  height: 6.25rem; /* Zmiana z 100px na 6.25rem */
+  width: 6.25rem;
+  height: 6.25rem;
   cursor: pointer;
   transition: transform 0.5s ease-in-out;
 
@@ -155,16 +155,16 @@ p {
 
 #content {
   background-color: white;
-  padding: 1.25rem 2.5rem; /* Zmiana z 20px 40px na 1.25rem 2.5rem */
-  padding-bottom: 0.625rem; /* Zmiana z 10px na 0.625rem */
-  border-radius: 0.625rem; /* Zmiana z 10px na 0.625rem */
-  box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1); /* Zmiana z 0 0 10px na 0 0 0.625rem */
+  padding: 1rem 2rem; /* 1.25rem 2.5rem * 0.8 */
+  padding-bottom: 0.5rem; /* 0.625rem * 0.8 */
+  border-radius: 0.5rem; /* 0.625rem * 0.8 */
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1); /* 0 0 0.625rem * 0.8 */
 }
 
 #countdown {
   display: flex;
   justify-content: center;
-  margin-top: 1.25rem; /* Zmiana z 20px na 1.25rem */
+  margin-top: 1rem; /* 1.25rem * 0.8 */
   user-select: none;
   -moz-user-select: none;
   -webkit-user-drag: none;
@@ -174,14 +174,14 @@ p {
 
 .tile {
   background-color: #ffc4d3;
-  font-size: 1.25rem; /* Zmiana z 20px na 1.25rem */
-  margin: 0 0.625rem; /* Zmiana z 0 10px na 0 0.625rem */
-  padding: 0.625rem 1.25rem; /* Zmiana z 10px 20px na 0.625rem 1.25rem */
-  border-radius: 0.625rem; /* Zmiana z 10px na 0.625rem */
-  box-shadow: 0 0 0.3125rem rgba(0, 0, 0, 0.1); /* Zmiana z 0 0 5px na 0 0 0.3125rem */
+  font-size: 1rem; /* 1.25rem * 0.8 */
+  margin: 0 0.5rem; /* 0.625rem * 0.8 */
+  padding: 0.5rem 1rem; /* 0.625rem 1.25rem * 0.8 */
+  border-radius: 0.5rem; /* 0.625rem * 0.8 */
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.1); /* 0 0 0.3125rem * 0.8 */
   transition: transform 0.3s ease-in-out;
   color: white;
-  width: 3.125rem; /* Zmiana z 50px na 3.125rem */
+  width: 2.5rem; /* 3.125rem * 0.8 */
 }
 
 .tile:hover {
@@ -193,7 +193,7 @@ p {
 }
 
 .label {
-  font-size: 0.75rem; /* Zmiana z 12px na 0.75rem */
+  font-size: 0.6rem; /* 0.75rem * 0.8 */
   font-weight: 500;
 }
 
